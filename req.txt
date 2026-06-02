@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+
+Project Overview: Humor Detection in Video Content
+This project, conducted by Sultana Al-Khlefa under the supervision of Raghad Al-Shmmari, explores the challenging task of automatically detecting humor in video transcripts using machine learning.
+• Goal: The primary objective is to develop and evaluate machine learning models that can classify video content as humorous or non-humorous, aiming to enhance content moderation and recommendation systems.
+• Methodology:
+• Data: The project utilized the "ur-funny" dataset.
+• Preprocessing: The text data underwent cleaning, including lowercasing and the removal of special characters and stop words.
+• Feature Engineering: TF-IDF (Term Frequency-Inverse Document Frequency) was used to convert text into numerical vectors.
+• Training: Three classifiers—Logistic Regression, Random Forest, and K-Nearest Neighbors (KNN)—were trained on an 80/20 train-test split of the data.
+• Conclusion: Random Forest achieved the best performance with an accuracy of approximately 66%. While the models showed moderate success, the findings indicate that textual features alone are insufficient for full humor detection, and future work could incorporate audio and visual cues to improve accuracy.
